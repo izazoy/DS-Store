@@ -1,0 +1,61 @@
+﻿/* BANNER BRAND */
+.banner-container img {
+  height: 300px;
+  width: 100%;
+}
+/* END BANNER BRAND */
+
+/* MAIN CONTENT */
+.content {
+  padding-block: 40px;
+}
+.content-column {
+  display: grid;
+  gap: 35px;
+  grid-auto-flow: column;
+}
+.column-one .content-img1 {
+  margin-bottom: 60px;
+}
+.column-one .content-img2 {
+  margin-bottom: 20px;
+}
+
+.content-text1 {
+  padding-bottom: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: var(--headingwordcolor);
+  font-weight: 600;
+}
+.content-text2 {
+  padding-bottom: 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: var(--headingwordcolor);
+  font-weight: 500;
+}
+.content-text3 {
+  color: var(--headingwordcolor);
+}
+.content-text3 a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.column-two,
+.content-text1 {
+  margin-top: 20px;
+}
+.column-two,
+.content-img3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.column-two,
+.content-img4 {
+  margin-top: 39px;
+}
+/* END MAIN CONTENT */

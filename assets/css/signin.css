@@ -1,0 +1,98 @@
+﻿/* BANNER BRAND */
+.banner-container img {
+  height: 300px;
+  width: 100%;
+}
+/* END BANNER BRAND */
+
+/* SIGNIN-REGISTER FORM  */
+.content {
+  margin-top: 40px;
+  color: var(--headingwordcolor);
+}
+.content-column {
+  display: grid;
+  gap: 20px;
+  grid-auto-flow: column;
+}
+.form1 {
+  width: 400px;
+}
+
+.drop input {
+  width: 380px;
+  height: 30px;
+}
+.create {
+  width: 800px;
+}
+.form1 {
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+.drop {
+  margin-bottom: 20px;
+}
+.checkbox {
+  margin-bottom: 20px;
+}
+a {
+  color: var(--primary);
+}
+button {
+  color: #454647;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border: solid rgba(0, 0, 0, 0.6) 2px;
+  text-transform: uppercase;
+  background-color: transparent;
+  padding-block: 10px;
+}
+button:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+  border-color: transparent;
+}
+.signin-button {
+  width: 100px;
+  height: 50px;
+  margin-right: 120px;
+}
+.create {
+  display: flex;
+  align-items: center;
+}
+
+.create-button-container {
+  margin-right: 65px;
+}
+.create p {
+  width: 200px;
+  text-align: right;
+}
+.create-button {
+  width: 200px;
+  height: 50px;
+  margin-right: 10px;
+}
+input[type="checkbox"].check-box {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.drop input::placeholder {
+  padding-left: 5px;
+}
+.error {
+  border: 1px solid red;
+  background-color: rgba(255, 0, 0, 0.1); /* Màu đỏ nhạt */
+}
+/* END SIGNIN-REGISTER FORM */

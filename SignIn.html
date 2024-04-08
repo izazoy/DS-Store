@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn-Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/header-footer.css" />
+    <link rel="stylesheet" href="assets/css/signin.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+        <div class="wrapper header-wrapper">
+          <div class="currency-header">
+            <p>
+              Currency: GBP
+              <i class="fa-solid fa-chevron-down"></i>
+            </p>
+          </div>
+  
+          <div class="login-cart">
+            <div class="login-btn">
+              <a href="#">Register</a>
+              <a href="#" style="color: #00c8c8; ">Sign In</a>
+            </div>
+  
+            <div class="cart-btn">         
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <span>empty</span>
+                  <i class="fa-solid fa-chevron-down"></i>             
+            </div>    
+          </div>
+              
+          </div>
+        </div>
+    </header>
+      <!-- END Header -->
+
+      <!-- NAV BAR -->
+      <div class="nav-wrapper">
+        <nav class="main-nav">
+          <ul>
+            <li class="logo"><a href="index.html"><img src="assets/img/Home/1-Home_06.jpg" alt=""></a></li>
+            <li class="products"><a href="#">MENS<i class="fa-solid fa-chevron-down"></i></a>
+              <ul class="sub-nav">
+                <div class="columns">
+
+                  <div class="column">
+                    <li><b><p class="title">CASUALS</p></b></li>
+                    <li><a href="#">Jackets</a></li> 
+                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                    <li><a href="#">Polo Shirts</a></li>
+                    <li><a href="#">Sportswear</a></li>
+                    <li><a href="#">Trousers & Chinos</a></li>
+                    <li><a href="#">T-Shirts</a></li>
+                     <img src="assets/img/Home/1-Home_03.jpg" alt="Product Image" class="Product-image">
+                  </div>
+
+                  <div class="column">
+                    <li><b><p class="title">FORMAL</p></b></li>
+                    <li><a href="#">Jackets</a></li> 
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">Suits</a></li>
+                    <li><a href="#">Trousers</a></li>
+                  </div>
+
+                </div>
+              </ul>
+            </li>
+            
+            <li class="products"><a href="#">WOMENS<i class="fa-solid fa-chevron-down"></i></a>
+              
+            </li>
+
+            <li class="products"><a href="Brand.html">THE BRAND<i class="fa-solid fa-chevron-down"></i></a>
+            
+            </li>
+
+            <li class="products" ><a href="LocalStores.html">LOCAL STORES<i class="fa-solid fa-chevron-down"></i></a>
+            
+            </li>
+
+            <li class="products"><a href="LookBook.html">LOOK BOOK<i class="fa-solid fa-chevron-down"></i></a>
+              <ul class="sub-nav">
+                <div class="columns">
+
+                  <div class="column">
+                    <li><b><p class="title">OUR LOOKBOOKS</p></b></li>
+                    <li><a href="#">Latest posts (mixed)</a></li> 
+                    <li><a href="#">Men’s Lookbook</a></li>
+                    <li><a href="#">Women’s Lookbook</a></li>
+                     <img src="assets/img/Home/1-Home_03.jpg" alt="Product Image" class="Product-image">
+                  </div>
+
+                  <div class="column">
+                    <li><b><p class="title">YOUR LOOKBOOKS</p></b></li>
+                    <li><a href="#">View and Edit</a></li> 
+                    <li><a href="#">Share</a></li>
+                    <li><a href="#">Delete</a></li>
+                  </div>
+
+                </div>
+              </ul>
+            </li>
+
+          <li class="search-bar">
+            <div class="nav-search-layout">
+              <form class="form-search">
+                  <div class="form-search-input" id="search">                      
+                      <input type="text" placeholder="Search...">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+              </form>
+          </div>        
+          </li>
+            
+          </ul>
+        </nav>
+      </div>
+      <!-- END NAV BAR -->
+
+      <!-- BANNER-BRAND -->
+      <div class="banner-container">
+        <img src="assets/img/SignIn-register/6-Sign-Up_02.jpg" alt="">
+     </div>
+    <!-- END BANNER-BRAND -->
+
+
+     <!-- SIGNIN-REGISTER FORM -->
+     <div class="content">
+        <div class="wrapper container">
+            <div class="content-column">
+
+                <form class="form1">
+                    <div class="column1">
+
+                        <p class="title">SIGN IN</p>
+
+                        <div class="drop">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                    
+                        <div class="drop">
+                            <input type="password" placeholder="Your password" maxlength="12" required>
+                        </div>
+                 
+                        <button class="signin-button">SIGN IN</button>
+                        <a href="">Forgot your Password <i class="fa-solid fa-arrow-right"></i></a>
+                       
+
+                    </div>
+                </form>
+                
+                <form class="form2">
+                    <div class="column2">
+
+                        <p class="title">REGISTER</p>
+                        
+                        <div class="drop">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                    
+                        <div class="drop">
+                            <input type="password" placeholder="Your password" maxlength="12" required>
+                        </div>
+                     
+                        <div class="drop">
+                            <input type="password" placeholder="Confirm password" maxlength="12" required>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="exclusive" class="check-box">
+                            <label for="exclusive">Sign up for exclusive updates, discounts, new arrivals, contests, and more!</label>
+                        </div>
+                       
+                        <div class="create">
+                            <div class="create-button-container">
+                                <button class="create-button">CREATE ACCOUNT</button>
+                            </div>
+                            <p>
+                                By clicking ‘Create Account’, you agree to our <a href="">Privacy Policy <i class="fa-solid fa-arrow-right"></i></a>
+                            </p>
+                        </div>
+
+                        
+                        
+                       
+                    </div>
+                </form>
+               
+            </div>
+        </div>
+      </div>
+ <!-- END SIGNIN-REGISTER FORM -->
+
+        <!-- FOOTER -->
+<div class="footer">
+    <div class="wrapper footer-top">
+      <ul>
+        <li>
+          <h3 class="footer-title">information</h3>
+          <p class="footer-desc">The brand</p>   
+          <p class="footer-desc">Local stores</p>
+          <p class="footer-desc">Customer service</p>
+          <p class="footer-desc">Privacy & cookies Site</p>
+          <p class="footer-desc">Site map</p>
+        </li>
+  
+        <li>
+          <h3 class="footer-title">Why buy from us</h3>
+          <p class="footer-desc">Shipping & returns</p>    
+          <p class="footer-desc">Secure shopping</p>
+          <p class="footer-desc">Testimonials</p>
+          <p class="footer-desc">Award winning</p>
+          <p class="footer-desc">Ethical trading</p>
+        </li>
+  
+        <li>
+          <h3 class="footer-title">your account</h3>      
+          <p class="footer-desc" style="color: #00c8c8;">Sign in</p>
+          <p class="footer-desc">Register</p>
+          <p class="footer-desc">View cart</p>
+          <p class="footer-desc">View your lookbook</p>
+          <p class="footer-desc">Track an order</p>
+          <p class="footer-desc">Update information</p>
+        </li>
+  
+        <li>
+          <h3 class="footer-title">Lookbook</h3>
+          <p class="footer-desc">Latest posts</p>    
+          <p class="footer-desc">Men’s lookbook</p>
+          <p class="footer-desc">Women’s lookbook</p>
+          <p class="footer-desc">Lookbooks RSS feed</p>
+          <p class="footer-desc">View your lookbook</p>
+          <p class="footer-desc">Delete your lookbook</p>
+        </li>
+  
+        <li>
+          <h3 class="footer-title">contact details</h3> 
+          <p class="footer-desc">Head Office: Avenue Fashion,  180-182 Regent Street, London.</p>
+          <p class="footer-desc">Telephone: 0123-456-789</p>  
+          <p class="footer-desc">Email: support@yourwebsite.com</p>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="wrapper footer-banner">    
+        <img src="assets/img/Home/1-Home_41.jpg" alt="">     
+        <img src="assets/img/Home/1-Home_40.jpg" alt="">     
+    </div>
+  
+    <div class="footer-bottom">
+        <div class="wrapper footer-main">
+          <div class="copyright-footer">
+              © 2016 Avenue Fashion™      
+          </div>
+            
+          <div class="design-footer">
+              <p>Design by RobbyDesigns.com</p>
+          </div>         
+              <div class="author-footer">
+                <p>Dev by Loremipsum.com</p>  
+              </div>
+          </div> 
+        </div>
+     </div>
+    
+  </div>
+  <!-- END FOOTER -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

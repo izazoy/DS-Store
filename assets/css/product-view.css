@@ -1,0 +1,262 @@
+﻿/* BANNER BRAND */
+.banner-container img {
+  height: 300px;
+  width: 100%;
+}
+/* END BANNER BRAND */
+
+/* ITEM-DETAIL */
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--headingwordcolor);
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.slider img {
+  width: 100%;
+  display: none;
+  height: 660px;
+}
+
+img.displaySlide {
+  display: block;
+}
+
+.slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 70px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+
+.slider button:hover {
+  color: white;
+  background-color: var(--primary);
+}
+a {
+  color: var(--headingwordcolor);
+}
+a:hover {
+  color: var(--primary);
+}
+
+.product-title {
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.product-rating a {
+  margin-left: 10px;
+}
+.product-rating i {
+  color: #ded3aa;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+}
+.social-links a {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  width: 20px;
+}
+.social-links p {
+  display: inline-block;
+}
+.product-rating,
+.add-review,
+.social-links {
+  display: inline-block;
+  margin-right: 10px;
+}
+.product-price {
+  position: relative;
+}
+.cur1 {
+  position: absolute;
+  top: -10px;
+  left: -20px;
+}
+.cur2 {
+  position: absolute;
+  top: -10px;
+  left: 60px;
+}
+.product-price {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.cross-price {
+  text-decoration: line-through;
+  text-decoration-color: rgba(0, 0, 0, 0.6);
+}
+
+.product-price p {
+  display: inline-block;
+  margin-right: 20px;
+}
+.product-detail .desc {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.tip span {
+  margin-right: 10px;
+}
+.product-detail .tag {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.category {
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.category p {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.category select {
+  width: 150px;
+  height: 30px;
+  border-color: #ccc;
+  color: var(--headingwordcolor);
+}
+.category input {
+  width: 50px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+.btn {
+  width: 220px;
+  height: 50px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: transparent;
+  padding-block: 10px;
+  color: #454647;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border: solid rgba(0, 0, 0, 0.6) 2px;
+}
+button:hover {
+  background-color: black;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.compare a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.compare a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #727272;
+  color: white;
+  margin-right: 15px;
+}
+.compare a i:hover {
+  background-color: black;
+  color: #ffffff;
+}
+/* END ITEM-DETAIL */
+
+/*  DESCRIPTION DETAIL  */
+.main-nav-2 {
+  margin-top: 50px;
+  background-color: #f8f8f8;
+  line-height: 50px;
+  height: 50px;
+}
+.main-nav-2 ul li {
+  display: inline-block;
+  position: relative;
+  margin-right: 75px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+.products-desc ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.main-nav-2 ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: var(--headingwordcolor);
+}
+
+.main-nav-2 ul li a {
+  display: block;
+}
+.products-desc {
+  background-color: black;
+
+  font-weight: 900;
+  padding-right: 20px;
+}
+.products-desc a {
+  margin-left: 20px;
+}
+
+/*  END DESCRIPTION DETAIL  */
+
+.detail-desc {
+  margin-top: 20px;
+  color: var(--headingwordcolor);
+}
+
+.detail-desc .title {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.detail-desc .pa1 {
+  margin-bottom: 10px;
+}
